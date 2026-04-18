@@ -18,7 +18,5 @@ and month(order_date) = month(CURRENT_DATE - INTERVAL 1 MONTH)
 group by c.customer_id, c.first_name, c.last_name
 having sum(total_amount) >500;
 
--- How we can apply a denormalization mechanism on customer and order entities
--- we can add in order_protucts table with customer-name as if customer update any table as we can improve speed 
--- instead of joining 3 tables to speed up reports
+
 
