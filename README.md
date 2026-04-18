@@ -4,5 +4,5 @@
 
 # How can we apply a denormalization mechanism on customer and order entities
 
- We can add to the order_protucts table with customer-name, as if the customer gets the reports,  we can improve speed instead of joining 3 tables to speed up reports
+ We can add to the order table with customer-name, as if the customer gets the reports,  we can improve speed instead of joining 3 tables to speed up reports
 
